@@ -6,8 +6,8 @@ import { useRouter } from "next/router";
 export default function Navbar() {
   const router = useRouter();
   const { t, lang } = useTranslation("common");
-  
-  const menutList  = t("common:menu", { }, { returnObjects: true }) ;
+  let menutList = []
+  menutList  = t("common:menu", { }, { returnObjects: true }) ;
   
   const onSelectChange = (e) => {
     const locale = e.target.value;
