@@ -1,15 +1,23 @@
 {
-  "appName" : "wishes 2022",
-  "title": "أتمنى لك الخير ، تطبيق رائع",
-  "description":
-    "تطبيق رائع يتيح لك تهنئة أو إظهار حبك لعائلتك وأصدقائك أينما كنت.",
-  "get": "ه الان",
-  "imageTitle": "image title",
-  "imageDescription": "image description",
-  "show": "",
+  "appName": "wishes 2022",
+  "title": "Te deseo lo mejor, una aplicación increíble",
+  "description": "Una aplicación increíble que te permitirá felicitar o mostrar tu amor a tu familia y amigos dondequiera que estés.",
+  "get": "¡Obtén la aplicación ahora!",
+  "show": "Mostrar más",
+  "review": "Leer reseñas de clientes",
+  
+  "imageTitle": "Mejor colección",
+  "imageDescription": "Mejor colección de 🌞 imágenes en todas las categorías como buenos días, frases de amor, mensajes tristes...🌞 Puedes compartirla con tus amigos y familiares.",
+  "quoteTitle": "Inspirando a los felices 💌​",
+  "quoteDescription": "Permite estas 1500 citas inspiradoras sobre la vida para darle un impulso extra en su paso siempre que lo necesite. Mantenga estas citas de la vida marcadas en su teléfono o computadora para acceder y desplazarse cuando necesite un poco de ánimo.",
+  "wallpaperTitle": "📱 Colección de fondos de pantalla 4K",
+  "wallpaperDescription": " ❥ Descargue la aplicación, le deseo un buen fondo de pantalla y obtenga un fondo de pantalla estético 4k para la pantalla de bloqueo: Fondos de pantalla y fondos HD・Fondo de pantalla en vivo 4d",
+  "stickerTitle": "Paquetes de pegatinas 🎁",
+  "stickerDescription": "Comience el día enviando geniales pegatinas de buenos días, pegatinas de buenas noches y mucho más a sus amigos y familiares en WhatsApp con este WAStickerApps",
+  "metaTitle": "wishes 2022",
+  "metaDescription": "Una aplicación increíble que permitirá felicitar o mostrar su amor a su familia y amigos dondequiera que esté.",
+  "keywords": "imágenes de amor, citas de amor, citas de amor para ella, citas de te amo, amor romántico, mensaje de amor para él",
 
-
-  "keywords": "love images ,love quotes ,love quotes for her,i love you quotes,romantic love, love message for him",
   "menu": [
     {
       "name": "Images",
@@ -32,7 +40,7 @@
       "link": "#download"
     },
     {
-      "name": "about",
+      "name": "sobre",
       "link": "/about"
     }
   ]

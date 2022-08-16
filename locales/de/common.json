@@ -6,22 +6,17 @@
   "show": "Zeige mehr",
   "review" : "Lesen Sie Kundenbewertungen",
 
-  "imageTitle": "Beste Kollektion",
-  "imageDescription": "Beste Sammlung von 🌞 Bildern in allen Katigorien wie Guten Morgen, Liebeszitate, Traurige Nachrichten ... 🌞 Sie können sie mit Ihren Freunden und Ihrer Familie teilen.",
-  
-  
-  "quoteTitle": "",
-  "quoteDescription": "",
-  
-  "wallpaperTitle": "",
-  "wallpaperDescription": "",
-  
-  "stickerTitle": "",
-  "stickerDescription": "",
-  
-  "metaTitle": "Wünsche 2022",
-  "metaDescription": "Eine erstaunliche App, mit der Sie Ihrer Familie und Ihren Freunden gratulieren oder Ihre Liebe zeigen können, wo immer Sie sind.",
-  "keywords": "Liebesbilder, Liebeszitate, Liebeszitate für sie, Ich liebe dich Zitate, romantische Liebe, Liebesbotschaft für ihn",
+  "imageTitle": "Beste Sammlung",
+  "imageDescription": "Beste Sammlung von 🌞 Bildern in allen Kategorien wie Guten Morgen, Liebeszitate, traurige Nachrichten ...🌞 Sie können sie mit Ihren Freunden und Ihrer Familie teilen.",
+  "quoteTitle": "Inspirieren der Glücklichen 💌​",
+  "quoteDescription": "Erlauben Sie diese 1500 inspirierenden Zitate über das Leben, um Ihnen zusätzlichen Schwung zu geben, wann immer Sie ihn brauchen. Speichern Sie diese Lebenszitate als Lesezeichen auf Ihrem Telefon oder Computer, um sie aufzurufen und durchzublättern, wann immer Sie mich ein wenig abholen müssen.",
+  "wallpaperTitle": "📱 4K-Wallpaper-Sammlung",
+  "wallpaperDescription": " ❥ Laden Sie die Anwendung herunter. HD-Hintergrundbilder und -Hintergründe・4D-Live-Hintergrundbild",
+  "stickerTitle": "Aufkleberpakete 🎁",
+  "stickerDescription": "Beginne deinen Tag, indem du mit diesen WAStickerApps coole Guten-Morgen-Aufkleber, Gute-Nacht-Aufkleber und vieles mehr an deine Freunde und Familienmitglieder auf WhatsApp sendest",
+  "metaTitle": "wishes 2022",
+  "metaDescription": "Eine erstaunliche App, die es ermöglicht Sie können Ihrer Familie und Ihren Freunden gratulieren oder Ihre Liebe zeigen, wo immer Sie sind.",
+  "keywords": "Liebesbilder, Liebeszitate, Liebeszitate für sie, ich liebe dich Zitate, romantische Liebe, Liebesbotschaft für ihn",
   "menu": [
     {
       "name": "Bilder",
@@ -44,7 +39,7 @@
       "link": "#download"
     },
     {
-      "name": "about",
+      "name": "um",
       "link": "/about"
     }
   ]

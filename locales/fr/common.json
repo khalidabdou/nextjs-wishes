@@ -7,17 +7,16 @@
   "review": "Lire les avis des clients",
 
   "imageTitle": "Meilleure collection",
-  "imageDescription": "Meilleure collection d’images 🌞 dans toutes les catégories comme bonjour, citations d’amour, messages tristes ... 🌞 Vous pouvez les partager avec vos amis et votre famille.",
- 
-  "quoteTitle": "",
-  "quoteDescription": "",
-  "wallpaperTitle": "",
-  "wallpaperDescription": "",
-  "stickerTitle": "",
-  "stickerDescription": "",
-  "metaTitle": "vœux 2022",
-  "metaDescription": "Une application incroyable qui vous permettra de féliciter ou de montrer votre amour à votre famille et à vos amis où que vous soyez.",
-  "keywords": "images d’amour, citations d’amour, citations d’amour pour elle, citations de je vous aime, amour romantique, message d’amour pour lui",
+  "imageDescription": "Meilleure collection d'images 🌞 dans toutes les catégories comme bonjour, citations d'amour, messages tristes ...🌞 Vous pouvez la partager avec vos amis et votre famille.",
+  "quoteTitle": "Inspirer le bonheur 💌​",
+  "quoteDescription": "Autoriser ces 1500 citations inspirantes sur la vie pour vous donner un coup de pouce supplémentaire dans votre démarche chaque fois que vous en avez besoin. Gardez ces citations de la vie en signet sur votre téléphone ou votre ordinateur pour les afficher et les faire défiler chaque fois que vous avez besoin d'un petit coup de pouce.",
+  "wallpaperTitle": "📱 Collection de fonds d'écran 4K] Fonds d'écran et arrière-plans HD・Fond d'écran animé 4d ",
+  "wallpaperDescription": "Packs d'autocollants 🎁",
+  "stickerTitle": "Commencez votre journée en envoyant des autocollants sympas Good Morning, Good Night Stickers et bien plus encore à vos amis et aux membres de votre famille sur WhatsApp avec ce WAStickerApps",
+  "stickerDescription": "Une application incroyable qui permettra vous féliciter ou montrer votre amour à votre famille et vos amis où que vous soyez.",
+  "metaTitle": "wishes 2022",
+  "metaDescription": "images d'amour, citations d'amour, citations d'amour pour elle, je t'aime citations, amour romantique, message d'amour pour lui",
+  "keywords": "Due2385AE_9",
   "menu": [
     {
       "name": "Images",
@@ -40,7 +39,7 @@
       "link": "#download"
     },
     {
-      "name": "about",
+      "name": "sur",
       "link": "/about"
     }
   ]

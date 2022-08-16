@@ -6,21 +6,17 @@
   "review": "Leggi le recensioni dei clienti",
   
   
-  "imageTitle": "Migliore Collezione",
-  "imageDescription": "Migliore raccolta di 🌞 immagini in tutti i catigories come buongiorno , Citazioni d'amore, Messaggi tristi ... 🌞 Puoi condividerli con i tuoi amici e familiari.",
-  
-  "quoteTitle": "",
-  "quoteDescription": "",
-  
-  "wallpaperTitle": "",
-  "wallpaperDescription": "",
-  
-  "stickerTitle": "",
-  "stickerDescription": "",
-  
-  "metaTitle": "desideri 2022",
-  "metaDescription": "Un'app straordinaria che ti permetterà di congratularti o mostrare il tuo amore alla tua famiglia e ai tuoi amici ovunque tu sia.",
-  "keywords": "immagini d'amore, citazioni d'amore, citazioni d'amore per lei, ti amo citazioni, amore romantico, messaggio d'amore per lui",
+  "imageTitle": "Migliore raccolta",
+  "imageDescription": "Migliore raccolta di 🌞 immagini in tutte le categorie come buongiorno, citazioni d'amore, messaggi tristi ...🌞 Puoi condividerlo con i tuoi amici e familiari.",
+  "quoteTitle": "Ispirare i felici 💌​",
+  "quoteDescription": "Consenti queste 1500 citazioni di ispirazione sulla vita per darti una spinta in più nel tuo passo ogni volta che ne hai bisogno. Mantieni queste citazioni di vita tra i preferiti sul tuo telefono o computer per tirarle su e scorrere ogni volta che hai bisogno di un po', prendimi in braccio.",
+  "wallpaperTitle": "📱 Collezione di sfondi 4K",
+  "wallpaperDescription": " ❥ Scarica l'applicazione ti auguro un buon sfondo e ottieni - sfondo estetico 4K per la schermata di blocco: Sfondi e sfondi HD・ Sfondi animati 4D ",
+  "stickerTitle": "Pacchetti di adesivi 🎁",
+  "stickerDescription": "Inizia la giornata inviando fantastici adesivi Buongiorno, adesivi Buona notte e molto altro ai tuoi amici e familiari su WhatsApp con questo WAStickerApps",
+  "metaTitle": "wishes 2022",
+  "metaDescription": "Un'app straordinaria che ti consentirà congratularmi o mostrare il tuo amore alla tua famiglia e ai tuoi amici ovunque tu sia.",
+  "keywords": "immagini d'amore, citazioni d'amore, citazioni d'amore per lei, citazioni di ti amo, amore romantico, messaggio d'amore per lui",
   "menu": [
     {
       "name": "Immagini",
@@ -43,7 +39,7 @@
       "link": "#download"
     },
     {
-      "name": "about",
+      "name": "di",
       "link": "/about"
     }
    

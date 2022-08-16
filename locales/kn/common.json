@@ -7,20 +7,16 @@
   "review": "고객 리뷰 읽기",
 
   "imageTitle": "베스트 컬렉션",
-  "imageDescription": "좋은 아침, 사랑 따옴표, 슬픈 메시지와 같은 모든 catigories에서 이미지의 최고의 컬렉션 🌞 ... 🌞 친구 및 가족과 공유 할 수 있습니다.",
-  
-  "quoteTitle": "",
-  "quoteDescription": "",
- 
-  "wallpaperTitle": "",
-  "wallpaperDescription": "",
- 
-  "stickerTitle": "",
-  "stickerDescription": "",
- 
-  "metaTitle": "소원 2022",
-  "metaDescription": "당신이 어디에 있든 축하하거나 가족과 친구들에게 당신의 사랑을 보여줄 수있는 놀라운 앱.",
-  "keywords": "사랑 이미지, 사랑 따옴표, 그녀를 위한 사랑 따옴표, 나는 당신을 사랑합니다 따옴표, 낭만적 인 사랑, 그를 위한 사랑 메시지",
+  "imageDescription": "좋은 아침, 사랑 인용구, 슬픈 메시지와 같은 모든 범주의 🌞 이미지 베스트 컬렉션 ...🌞 친구 및 가족과 공유할 수 있습니다.",
+  "quoteTitle": "Inspiring Happy 💌​",
+  "quoteDescription": "1500개의 영감을 주는 인용문 허용 당신이 필요할 때마다 당신의 발걸음에 여분의 활력을주기 위해 삶에 대해. 이 삶의 인용구를 휴대전화나 컴퓨터에 북마크해 두면 필요할 때마다 위로 스크롤하고 스크롤할 수 있습니다.",
+  "wallpaperTitle": "📱 4K 월페이퍼 컬렉션",
+  "wallpaperDescription": " ❥ 다운로드 응용 프로그램은 좋은 월페이퍼를 원하고 잠금 화면용 미적 4k 월페이퍼를 가져옵니다. HD 월페이퍼 및 배경화면・4d 라이브 월페이퍼 ",
+  "stickerTitle": "스티커 팩 🎁",
+  "stickerDescription": "WAStickerApps를 사용하여 WhatsApp에서 멋진 굿모닝 스티커, 굿나잇 스티커 등을 친구와 가족에게 보내면서 하루를 시작하세요.",
+  "metaTitle": "wishes 2022",
+  "metaDescription": "이를 허용하는 놀라운 앱 당신이 어디에 있든 당신의 가족과 친구들에게 당신의 사랑을 축하하거나 보여줄 수 있습니다.",
+  "keywords": "사랑 이미지, 사랑 인용문, 그녀를 위한 사랑 인용문, 당신을 사랑합니다 인용문,낭만적인 사랑, 그를 위한 사랑 메시지",
   "menu": [
     {
       "name": "이미지",
@@ -43,7 +39,7 @@
       "link": "#download"
     },
     {
-      "name": "about",
+      "name": "~에 대한",
       "link": "/about"
     }
   ]
