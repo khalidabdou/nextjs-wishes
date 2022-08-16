@@ -108,7 +108,7 @@ export default function Header() {
                       controls={false}
                       autoPlay={true}
                       loop={true}
-                      muted="muted"
+                      muted={true}
                     />
                   </div>
                 </div>

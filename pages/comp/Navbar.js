@@ -3,12 +3,12 @@ import { Languages } from "../../greeting";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
 
-
 export default function Navbar() {
   const router = useRouter();
   const { t, lang } = useTranslation("common");
-  const menutList = t("common:menu", {}, { returnObjects: true });
-
+  
+  const menutList  = t("common:menu", { }, { returnObjects: true }) ;
+  
   const onSelectChange = (e) => {
     const locale = e.target.value;
 
@@ -16,15 +16,6 @@ export default function Navbar() {
       locale,
       scroll: false,
     });
-
-    //toggel navbarResponsive
-
-    //toggel navbarResponsive function if navbarResponsive is open with animation
-    //navbarResponsive.classList.toggle("navbarResponsiveShow");
-
-    function toggelNavbar() {
-
-    };
   };
 
   const onClick = (e) => {
@@ -35,7 +26,7 @@ export default function Navbar() {
       navbarResponsive.classList.add("show");
     }
     console.log("onClick");
-  }
+  };
 
   return (
     <nav
@@ -46,7 +37,7 @@ export default function Navbar() {
         <Link href="/">
           <a className="navbar-brand fw-bold">{t("appName")}</a>
         </Link>
-        
+
         <button
           className="navbar-toggler"
           type="button"
@@ -63,7 +54,6 @@ export default function Navbar() {
         <div className="navbar-collapse collapse " id="navbarResponsive">
           <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
             
-
             {menutList.map((item, index) => (
               <li className="nav-item" key={index}>
                 <a className="nav-link me-lg-3" href={item.link}>
