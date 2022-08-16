@@ -102,13 +102,28 @@ export default function Header() {
                   data-color="black"
                 >
                   <div className="screen bg-black">
-                    <Image src="/en/main.jpg" alt="logo" layout="fill" />
+                    {/* <Image src="/en/main.jpg" alt="logo" layout="fill" /> */}
+                    <video
+                      className="bg-video"
+                      src="/video.mp4"
+                      controls={false}
+                      autoPlay={true}
+                      loop={true}
+                      muted="muted"
+                    />
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <style jsx>{`
+          .bg-video {
+            max-width: 100%;
+            height: 100%;
+          }
+            `
+          }</style>         
       </div>
     </header>
   );

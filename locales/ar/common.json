@@ -43,6 +43,10 @@
     {
       "name": "تحميل",
       "link": "#download"
+    },
+    {
+      "name": "about",
+      "link": "/about"
     }
   ]
 }

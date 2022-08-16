@@ -39,6 +39,10 @@
     {
       "name": "ดาวน์โหลด",
       "link": "#download"
+    },
+    {
+      "name": "about",
+      "link": "/about"
     }
   ]
 }

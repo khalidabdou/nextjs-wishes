@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Languages } from "../../greeting";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
+import Image from "next/image";
 
 export default function Navbar() {
   const router = useRouter();
@@ -20,19 +21,19 @@ export default function Navbar() {
 
     //toggel navbarResponsive function if navbarResponsive is open with animation
     //navbarResponsive.classList.toggle("navbarResponsiveShow");
-  
-    function toggelNavbar  () {
-      
+
+    function toggelNavbar() {
+
     };
   };
 
   const onClick = (e) => {
     const navbarResponsive = document.getElementById("navbarResponsive");
-      if (navbarResponsive.classList.contains("show")) {
-        navbarResponsive.classList.remove("show");
-      } else {
-        navbarResponsive.classList.add("show");
-      }
+    if (navbarResponsive.classList.contains("show")) {
+      navbarResponsive.classList.remove("show");
+    } else {
+      navbarResponsive.classList.add("show");
+    }
     console.log("onClick");
   }
 
@@ -45,6 +46,7 @@ export default function Navbar() {
         <Link href="/">
           <a className="navbar-brand fw-bold">{t("appName")}</a>
         </Link>
+        
         <button
           className="navbar-toggler"
           type="button"
@@ -53,13 +55,15 @@ export default function Navbar() {
           aria-controls="navbarResponsive"
           aria-expanded="false"
           aria-label="Toggle navigation"
-          onClick={onClick }
+          onClick={onClick}
         >
           Menu
           <i className="bi-list"></i>
         </button>
         <div className="navbar-collapse collapse " id="navbarResponsive">
           <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
+            
+
             {menutList.map((item, index) => (
               <li className="nav-item" key={index}>
                 <a className="nav-link me-lg-3" href={item.link}>
