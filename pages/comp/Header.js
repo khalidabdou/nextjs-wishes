@@ -4,7 +4,6 @@ import { playStoreLink, appStoreLink } from "../../greeting";
 
 export default function Header() {
   const { t, lang } = useTranslation("common");
-
   const title = t("title");
   const description = t("description");
 

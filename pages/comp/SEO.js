@@ -1,9 +1,9 @@
 import Head from "next/head";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
-import Script from "next/script";
+
 export default function SEO() {
-  const router = useRouter();
+  
   const { t, lang } = useTranslation("common");
 
   const keywords = t("common:keywords", {}, { returnObjects: true });
@@ -19,8 +19,6 @@ export default function SEO() {
       <link rel="icon" href="/icon.png" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <>
-    
-
       </>
     </Head>
   );

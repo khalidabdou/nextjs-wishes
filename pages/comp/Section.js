@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Images({
+export default function Section({
   id,
   title,
   description,

@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Languages } from "../../greeting";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
-import Image from "next/image";
+
 
 export default function Navbar() {
   const router = useRouter();
