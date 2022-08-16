@@ -1,0 +1,46 @@
+{
+  "appName": "소원 2022",
+  "title": "난 당신이 좋은, 놀라운 응용 프로그램을 기원합니다",
+  "description": "당신이 어디에 있든 축하하거나 가족과 친구들에게 당신의 사랑을 보여줄 수있는 놀라운 앱.",
+  "get": "지금 앱을 받으세요!",
+  "show": "더 보기",
+  "review": "고객 리뷰 읽기",
+
+  "imageTitle": "베스트 컬렉션",
+  "imageDescription": "좋은 아침, 사랑 따옴표, 슬픈 메시지와 같은 모든 catigories에서 이미지의 최고의 컬렉션 🌞 ... 🌞 친구 및 가족과 공유 할 수 있습니다.",
+  
+  "quoteTitle": "",
+  "quoteDescription": "",
+ 
+  "wallpaperTitle": "",
+  "wallpaperDescription": "",
+ 
+  "stickerTitle": "",
+  "stickerDescription": "",
+ 
+  "metaTitle": "소원 2022",
+  "metaDescription": "당신이 어디에 있든 축하하거나 가족과 친구들에게 당신의 사랑을 보여줄 수있는 놀라운 앱.",
+  "keywords": "사랑 이미지, 사랑 따옴표, 그녀를 위한 사랑 따옴표, 나는 당신을 사랑합니다 따옴표, 낭만적 인 사랑, 그를 위한 사랑 메시지",
+  "menu": [
+    {
+      "name": "이미지",
+      "link": "#images"
+    },
+    {
+      "name": "따옴표",
+      "link": "#quotes"
+    },
+    {
+      "name": "스티커",
+      "link": "#stickers"
+    },
+    {
+      "name": "배경 화면",
+      "link": "#wallpapers"
+    },
+    {
+      "name": "다운로드",
+      "link": "#download"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "appName": "vœux 2022",
+  "title": "Je vous souhaite bonne chance, une application incroyable",
+  "description": "Une application incroyable qui vous permettra de féliciter ou de montrer votre amour à votre famille et à vos amis où que vous soyez.",
+  "get": "Téléchargez l’application dès maintenant !",
+  "show": "Afficher plus",
+  "review": "Lire les avis des clients",
+
+  "imageTitle": "Meilleure collection",
+  "imageDescription": "Meilleure collection d’images 🌞 dans toutes les catégories comme bonjour, citations d’amour, messages tristes ... 🌞 Vous pouvez les partager avec vos amis et votre famille.",
+ 
+  "quoteTitle": "",
+  "quoteDescription": "",
+  "wallpaperTitle": "",
+  "wallpaperDescription": "",
+  "stickerTitle": "",
+  "stickerDescription": "",
+  "metaTitle": "vœux 2022",
+  "metaDescription": "Une application incroyable qui vous permettra de féliciter ou de montrer votre amour à votre famille et à vos amis où que vous soyez.",
+  "keywords": "images d’amour, citations d’amour, citations d’amour pour elle, citations de je vous aime, amour romantique, message d’amour pour lui",
+  "menu": [
+    {
+      "name": "Images",
+      "link": "#images"
+    },
+    {
+      "name": "Guillemets",
+      "link": "#quotes"
+    },
+    {
+      "name": "Autocollants",
+      "link": "#stickers"
+    },
+    {
+      "name": "Wallpapers",
+      "link": "#wallpapers"
+    },
+    {
+      "name": "Télécharger",
+      "link": "#download"
+    }
+  ]
+}

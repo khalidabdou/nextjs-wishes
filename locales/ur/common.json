@@ -1,0 +1,36 @@
+{
+  "appName" : "wishes 2022",
+  "title": "أتمنى لك الخير ، تطبيق رائع",
+  "description":
+    "تطبيق رائع يتيح لك تهنئة أو إظهار حبك لعائلتك وأصدقائك أينما كنت.",
+  "get": "إحصل عليه الان",
+  "imageTitle": "image title",
+  "imageDescription": "image description",
+  "show": "المزيد",
+  "review": "کسٹمر کے جائزے پڑھیں",
+
+  "keywords": "love images ,love quotes ,love quotes for her,i love you quotes,romantic love, love message for him",
+  "menu": [
+    {
+      "name": "Images",
+      "link": "#images"
+    },
+    {
+      "name": "Quotes",
+      "link": "#quotes"
+    },
+    {
+      "name": "Stickers",
+      "link": "#stickers"
+    },
+    {
+      "name": "Wallpaper",
+      "link": "#wallpapers"
+    },
+    {
+      "name": "ڈاؤن لوڈ کریں",
+      "link": "#download"
+    }
+  ]
+
+}

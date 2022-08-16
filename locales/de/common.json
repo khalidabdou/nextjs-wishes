@@ -1,0 +1,47 @@
+{
+  "appName": "Wünsche 2022",
+  "title": "Ich wünsche Ihnen Gutes, eine tolle App",
+  "description": "Eine erstaunliche App, mit der Sie Ihrer Familie und Ihren Freunden gratulieren oder Ihre Liebe zeigen können, wo immer Sie sind.",
+  "get": "Holen Sie sich jetzt die App!",
+  "show": "Zeige mehr",
+  "review" : "Lesen Sie Kundenbewertungen",
+
+  "imageTitle": "Beste Kollektion",
+  "imageDescription": "Beste Sammlung von 🌞 Bildern in allen Katigorien wie Guten Morgen, Liebeszitate, Traurige Nachrichten ... 🌞 Sie können sie mit Ihren Freunden und Ihrer Familie teilen.",
+  
+  
+  "quoteTitle": "",
+  "quoteDescription": "",
+  
+  "wallpaperTitle": "",
+  "wallpaperDescription": "",
+  
+  "stickerTitle": "",
+  "stickerDescription": "",
+  
+  "metaTitle": "Wünsche 2022",
+  "metaDescription": "Eine erstaunliche App, mit der Sie Ihrer Familie und Ihren Freunden gratulieren oder Ihre Liebe zeigen können, wo immer Sie sind.",
+  "keywords": "Liebesbilder, Liebeszitate, Liebeszitate für sie, Ich liebe dich Zitate, romantische Liebe, Liebesbotschaft für ihn",
+  "menu": [
+    {
+      "name": "Bilder",
+      "link": "#images"
+    },
+    {
+      "name": "Gänsefüßchen",
+      "link": "#quotes"
+    },
+    {
+      "name": "Aufkleber",
+      "link": "#stickers"
+    },
+    {
+      "name": "Tapeten",
+      "link": "#wallpapers"
+    },
+    {
+      "name": "Download",
+      "link": "#download"
+    }
+  ]
+}

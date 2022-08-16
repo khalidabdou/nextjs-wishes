@@ -1,0 +1,47 @@
+{
+  "appName": "desideri 2022",
+  "title": "Ti auguro buon appetito, un'app fantastica",
+  "description": "Un'app straordinaria che ti permetterà di congratularti o mostrare il tuo amore alla tua famiglia e ai tuoi amici ovunque tu sia.",
+  "get": "Scarica subito l'app!",
+  "review": "Leggi le recensioni dei clienti",
+  
+  
+  "imageTitle": "Migliore Collezione",
+  "imageDescription": "Migliore raccolta di 🌞 immagini in tutti i catigories come buongiorno , Citazioni d'amore, Messaggi tristi ... 🌞 Puoi condividerli con i tuoi amici e familiari.",
+  
+  "quoteTitle": "",
+  "quoteDescription": "",
+  
+  "wallpaperTitle": "",
+  "wallpaperDescription": "",
+  
+  "stickerTitle": "",
+  "stickerDescription": "",
+  
+  "metaTitle": "desideri 2022",
+  "metaDescription": "Un'app straordinaria che ti permetterà di congratularti o mostrare il tuo amore alla tua famiglia e ai tuoi amici ovunque tu sia.",
+  "keywords": "immagini d'amore, citazioni d'amore, citazioni d'amore per lei, ti amo citazioni, amore romantico, messaggio d'amore per lui",
+  "menu": [
+    {
+      "name": "Immagini",
+      "link": "#images"
+    },
+    {
+      "name": "Virgolette",
+      "link": "#quotes"
+    },
+    {
+      "name": "Adesivi",
+      "link": "#stickers"
+    },
+    {
+      "name": "Sfondi",
+      "link": "#wallpapers"
+    },
+    {
+      "name": "Scarica",
+      "link": "#download"
+    }
+   
+  ]
+}

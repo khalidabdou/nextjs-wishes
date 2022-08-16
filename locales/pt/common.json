@@ -1,0 +1,47 @@
+{
+  "appName": "desejos 2022",
+  "title": "Desejo-lhe boa, um aplicativo incrível",
+  "description": "Um aplicativo incrível que permitirá que você parabenize ou mostre seu amor para sua família e amigos onde quer que você esteja.",
+  "get": "Pegue o aplicativo agora!",
+  "show": "Mostrar mais",
+  "review": "Leia comentários de clientes",
+  
+  "imageTitle": "Melhor Coleção",
+  "imageDescription": "Melhor Coleção de 🌞 imagens em todos os catigories como bom dia , Love Quotes, Mensagens tristes ... 🌞 Você pode compartilhá-los com seus amigos e familiares.",
+ 
+  
+  "quoteTitle": "",
+  "quoteDescription": "",
+  
+  "wallpaperTitle": "",
+  "wallpaperDescription": "",
+  
+  "stickerTitle": "",
+  "stickerDescription": "",
+  
+  "metaTitle": "desejos 2022",
+  "metaDescription": "Um aplicativo incrível que permitirá que você parabenize ou mostre seu amor para sua família e amigos onde quer que você esteja.",
+  "keywords": "imagens de amor, citações de amor, citações de amor para ela, eu te amo citações, amor romântico, mensagem de amor para ele",
+  "menu": [
+    {
+      "name": "Imagens",
+      "link": "#images"
+    },
+    {
+      "name": "Aspas",
+      "link": "#quotes"
+    },
+    {
+      "name": "Adesivos",
+      "link": "#stickers"
+    },
+    {
+      "name": "Wallpapers",
+      "link": "#wallpapers"
+    },
+    {
+      "name": "Download",
+      "link": "#download"
+    }
+  ]
+}
