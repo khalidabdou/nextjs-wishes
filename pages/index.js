@@ -28,7 +28,6 @@ export default function Home() {
     <div>
       <SEO/>
       <main>
-    
         <Header />
         <Section
           id={'images'}

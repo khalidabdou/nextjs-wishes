@@ -2,6 +2,8 @@
    "locales": ["ar", "de", "en" , "es", "fr", "it", "kn", "pt", "ru","ur", "zh" ,"th"],
    "defaultLocale": "en",
    "pages": {
-     "*": ["common"]
+     "*": ["common"],
+     "/": ["*"],
+     "/": ["common"]
    }
 }

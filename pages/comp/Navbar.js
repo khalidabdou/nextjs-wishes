@@ -6,12 +6,11 @@ import { useRouter } from "next/router";
 export default function Navbar() {
   const router = useRouter();
   const { t, lang } = useTranslation("common");
-  let menutList = []
-  menutList  = t("common:menu", { }, { returnObjects: true }) ;
+  const menutList  = t("common:menu", { }, { returnObjects: true }) ;
+
   
   const onSelectChange = (e) => {
     const locale = e.target.value;
-
     router.push(router.asPath, router.asPath, {
       locale,
       scroll: false,
@@ -27,6 +26,8 @@ export default function Navbar() {
     }
     console.log("onClick");
   };
+
+ 
 
   return (
     <nav
