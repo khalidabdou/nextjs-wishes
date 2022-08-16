@@ -3,11 +3,22 @@ import { Languages } from "../../greeting";
 import useTranslation from "next-translate/useTranslation";
 import { useRouter } from "next/router";
 
+
+
 export default function Navbar() {
+  let menutList=[]
   const router = useRouter();
   const { t, lang } = useTranslation("common");
-  const menutList  = t("common:menu", { }, { returnObjects: true }) ;
-
+  menutList  = t("common:menu", { }, { returnObjects: true })  || [];
+  //if route is not return null
+  if(router.pathname !== '/'){
+    menutList=[]
+    menutList.push(<li key={1}><Link href="/"><a>{t("home")}</a></Link></li>)
+    menutList.push(<li key={2}><Link href="/"><a>{t("about")}</a></Link></li>)
+    
+  }
+  
+ 
   
   const onSelectChange = (e) => {
     const locale = e.target.value;
@@ -24,7 +35,7 @@ export default function Navbar() {
     } else {
       navbarResponsive.classList.add("show");
     }
-    console.log("onClick");
+   
   };
 
  
@@ -61,7 +72,8 @@ export default function Navbar() {
                   {item.name}
                 </a>
               </li>
-            ))}
+            ))
+            }
 
             <li className="nav-item">
               <select
@@ -84,3 +96,7 @@ export default function Navbar() {
     </nav>
   );
 }
+
+
+//getstaticprops
+
