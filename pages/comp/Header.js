@@ -1,8 +1,22 @@
 import Image from "next/image";
 import useTranslation from "next-translate/useTranslation";
 import { playStoreLink, appStoreLink } from "../../greeting";
+import { motion, AnimatePresence } from 'framer-motion';
+
 
 export default function Header() {
+
+  const variants = {
+    hidden: { opacity: 0, x: 200, y: 0 },
+    enter: {
+      opacity: 1, x: 0, y: 0, transition: {
+        duration: 0.9,
+        delay: 0.1
+      }
+    },
+    exit: { opacity: 0, x: 0, y: -100 },
+  }
+
   const { t, lang } = useTranslation("common");
   const title = t("title");
   const description = t("description");
@@ -93,7 +107,13 @@ export default function Header() {
               >
                 <circle cx="50" cy="50" r="50"></circle>
               </svg>
-              <div className="device-wrapper">
+              <motion.div className="device-wrapper"
+                variants={variants} // Pass the variant object into Framer Motion 
+                initial="hidden" // Set the initial state to variants.hidden
+                animate="enter" // Animated state to variants.enter
+                exit="exit" // Exit state (used later) to variants.exit
+                transition={{ type: 'linear' }}
+              >
                 <div
                   className="device"
                   data-device="iPhoneX"
@@ -112,7 +132,7 @@ export default function Header() {
                     />
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
@@ -122,8 +142,8 @@ export default function Header() {
             height: 100%;
           }
             `
-          }</style>         
+        }</style>
       </div>
-    </header>
+    </header >
   );
 }
