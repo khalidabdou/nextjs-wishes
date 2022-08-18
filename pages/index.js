@@ -20,18 +20,24 @@ export default function Home() {
   const quoteTitle = t("quoteTitle");
   const quoteDescription = t("quoteDescription");
 
+  const video=t("video");
+  const screen1=t("screen1");
+  const screen2=t("screen2");
+  const screen3=t("screen3");
+  const screen4=t("screen4");
+
   return (
     <div>
       <SEO />
       <main>
-        <Header />
+        <Header video={video} />
         <Section
           id={"images"}
           title={imageTitle}
           description={imageDescription}
           button={show}
           backgound={"bg-white"}
-          image={"/img.jpg"}
+          image={"/"+screen1}
           dir={""}
         />
         <Section
@@ -39,7 +45,7 @@ export default function Home() {
           title={stickerTitle}
           description={stickerDescription}
           button={show}
-          image={"/stickers.jpg"}
+          image={"/"+screen2}
           dir={"rtl"}
         />
         <Section
@@ -48,7 +54,7 @@ export default function Home() {
           description={quoteDescription}
           button={show}
           backgound={"bg-white"}
-          image={"/quotes.jpg"}
+          image={"/"+screen3}
           dir={""}
         />
         <Section
@@ -56,7 +62,7 @@ export default function Home() {
           title={wallpaperTitle}
           description={wallpaperDescription}
           button={show}
-          image={"/wallpapers.jpg"}
+          image={"/"+screen4}
           dir={"rtl"}
         />
         <Reviews />
