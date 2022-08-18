@@ -4,7 +4,7 @@ import { playStoreLink, appStoreLink } from "../../greeting";
 import { motion, AnimatePresence } from 'framer-motion';
 
 
-export default function Header() {
+export default function Header({video}) {
 
   const variants = {
     hidden: { opacity: 0, x: 200, y: 0 },
@@ -124,7 +124,7 @@ export default function Header() {
                     {/* <Image src="/en/main.jpg" alt="logo" layout="fill" /> */}
                     <video
                       className="bg-video"
-                      src="/video.mp4"
+                      src={"/"+video}
                       controls={false}
                       autoPlay={true}
                       loop={true}
