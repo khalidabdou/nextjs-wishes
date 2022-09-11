@@ -6,7 +6,8 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ['specialones.online'],
+    domains: ['specialones.online','play-lh.googleusercontent.com'],
+    
   },
 
 }

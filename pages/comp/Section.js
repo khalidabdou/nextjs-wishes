@@ -68,7 +68,7 @@ export default function Section({
                   data-color="black"
                 >
                   <div className="screen bg-black">
-                    <Image src={image} alt="logo" layout="fill" />
+                    <Image src={"https://play-lh.googleusercontent.com/"+image} alt="logo" layout="fill" />
                   </div>
                 </div>
               </div>

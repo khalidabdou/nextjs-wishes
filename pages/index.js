@@ -37,7 +37,7 @@ export default function Home() {
           description={imageDescription}
           button={show}
           backgound={"bg-white"}
-          image={"/"+screen1}
+          image={screen1}
           dir={""}
         />
         <Section
@@ -45,7 +45,7 @@ export default function Home() {
           title={stickerTitle}
           description={stickerDescription}
           button={show}
-          image={"/"+screen2}
+          image={screen2}
           dir={"rtl"}
         />
         <Section
@@ -54,7 +54,7 @@ export default function Home() {
           description={quoteDescription}
           button={show}
           backgound={"bg-white"}
-          image={"/"+screen3}
+          image={screen3}
           dir={""}
         />
         <Section
@@ -62,7 +62,7 @@ export default function Home() {
           title={wallpaperTitle}
           description={wallpaperDescription}
           button={show}
-          image={"/"+screen4}
+          image={screen4}
           dir={"rtl"}
         />
         <Reviews />
