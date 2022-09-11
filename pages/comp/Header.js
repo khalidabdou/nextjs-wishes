@@ -23,7 +23,7 @@ export default function Header({video}) {
 
   //if playstore link is not empty then show playstore button
   const playStoreButton = playStoreLink ? (
-    <a className="me-lg-3 mb-4 mb-lg-0" href={playStoreLink}>
+    <a className="me-lg-3 mb-4 mb-lg-0" href={playStoreLink} target="_blanck" >
       <Image
         className="app-badge"
         src="/google-play-badge.svg"

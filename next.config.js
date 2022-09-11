@@ -5,6 +5,9 @@ const nextConfig = {
   ...nextTranslate(),
   reactStrictMode: true,
   swcMinify: true,
+  images: {
+    domains: ['specialones.online'],
+  },
 
 }
 module.exports = nextTranslate({

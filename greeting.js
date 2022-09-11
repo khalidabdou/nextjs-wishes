@@ -132,8 +132,8 @@ export const Languages = [
 
 //play store link for android and app store for ios 
 //set emtpy string if not available
-export const playStoreLink = "https://play.google.com/store/apps/details?id=com.app.greeting";
-export const appStoreLink = "https://apps.apple.com/us/app/greeting/id1498992587";
+export const playStoreLink = "https://play.google.com/store/apps/details?id=com.wallchina.goodmorning";
+export const appStoreLink = "";
 
 //about page
 export const about = {

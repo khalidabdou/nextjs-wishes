@@ -80,9 +80,9 @@ export default function Section({
               <h1 className="display-1 lh-2 mb-3 text-black">{title}</h1>
               <p className="lead fw-normal text-muted mb-5">{description}</p>
               <div className="d-flex flex-column flex-lg-row align-items-center">
-                {/* <a className="me-lg-3 mb-4 mb-lg-0" href="#download">
+                <a className="me-lg-3 mb-4 mb-lg-0" href="#">
                   <button className="btn btn-primary">{button}</button>
-                </a> */}
+                </a>
               </div>
             </div>
           </div>

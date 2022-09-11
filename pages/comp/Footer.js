@@ -23,7 +23,7 @@ export default function Footer() {
   ) : null;
   //if appstore link is not empty then show appstore button
   const appStoreButton = appStoreLink ? (
-    <a className="me-lg-3 mb-4 mb-lg-0" href={appStoreLink}>
+    <a className="me-lg-3 mb-4 mb-lg-0" href={appStoreLink} target="_blanck">
       <Image
         className="app-badge"
         src="/app-store-badge.svg"
