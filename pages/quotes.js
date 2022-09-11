@@ -7,36 +7,46 @@ const url = 'http://specialones.online/categories/thialand/Uploaded%20by%20user%
 export default function Quotes(props) {
 
 
-    const categories = props.data
-    //console.log(categories);
+    const categories = props.cats.cats
+    const quotes = props.quotes
+    console.log(quotes);
 
     return (
         <div className="masthead container px-5 bg-white">
-           
+
             <div className="container">
                 <div className="row">
                     <div className="col">
-                        <div className="row">
-                        <Quote />
-                            
+                        <div className="row ">
+                            {quotes.map(function (q) {
+                                return <div className="">
+                                    <Quote quote={q.quote}/>
+                                </div>
+                            })}
                         </div>
                     </div>
 
                     <div className="col-2">
-                        One of three columns
+                        <ul>
+                            {categories.map(function (cat, index) {
+                                return <li key={index}><Link href="/blog/hello-world">{cat.name}</Link></li>
+                            })}
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     )
 
-
 }
 
 export const getStaticProps = async () => {
-    const res = await axios.get("http://specialones.online/api/quotes_v2/5");
+    const res = await axios.get("http://specialones.online/api/quotes_v2/7");
+    const cats = await axios.get("http://specialones.online/api/cats_quote/7");
+    let quotes=res.data.quotes.slice(1,10)
     console.log(res.data);
+
     return {
-        props: { data: res.data },
+        props: { quotes: quotes, cats: cats.data },
     };
 };
