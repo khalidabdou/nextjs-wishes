@@ -18,8 +18,8 @@ export default function Quotes(props) {
                 <div className="row">
                     <div className="col">
                         <div className="row ">
-                            {quotes.map(function (q) {
-                                return <div className="">
+                            {quotes.map(function (q,index) {
+                                return <div key={index} className="">
                                     <Quote quote={q.quote}/>
                                 </div>
                             })}
