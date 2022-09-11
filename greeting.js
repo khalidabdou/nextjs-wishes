@@ -104,9 +104,9 @@ export const Languages = [
  export  const reviews = [
   {
     id: 1,
-    name: "John Doe",
+    name: "Fong Lee",
     image: "/avatar.png",
-    description: `대박. 앱이 원활하게 작동합니다. 사용하기 쉬운 부드러운 UI. 또한, 이 얼마나 환상적인 아이디어입니까!`,
+    description: `惊人的。应用程序无缝运行。流畅的用户界面，轻松使用。另外，真是个好主意！`,
   },
   {
     id: 2,
