@@ -52,9 +52,9 @@
     ],
 
     "video":"video.mp4",
-    "screen1": "screen1.png",
-    "screen2": "screen2.png",
-    "screen3": "screen3.png",
-    "screen4": "screen4.png"
+    "screen1": "screen1.webp",
+    "screen2": "stickers.webp",
+    "screen3": "screen2.webp",
+    "screen4": "screen3.jpeg"
 
   }
