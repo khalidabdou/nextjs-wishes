@@ -42,6 +42,7 @@ export default function Footer() {
             <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center">
                 {playStoreButton}
                 {appStoreButton}
+                
             </div>
         </div>
     </section>
