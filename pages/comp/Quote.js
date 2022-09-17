@@ -6,16 +6,7 @@ export default function Quote({ quote: quote }) {
 
 
 
-  function fbs_click(e) {
-
-    e.preventDefault();
-    console.log("jjj");
-
-    //window.open('http://www.facebook.com/sharer.php?u=' + encodeURIComponent("") + '&t=' + encodeURIComponent(""), 'sharer', 'toolbar=0,status=0,width=626,height=436');
-    //return false;
-
-
-  }
+  
 
   async function copy(e) {
     e.preventDefault();
@@ -52,8 +43,6 @@ export default function Quote({ quote: quote }) {
                       <i
                         className="col bi bi-facebook m-2"
                         style={{ fontSize: 25 + 'px' }}
-                        onclick={(e) => fb(e)}
-
                       ></i>
                       <i className="col bi bi-instagram m-2" style={{ fontSize: 25 + 'px' }}></i>
                       <i className="col bi bi-clipboard-check m-2" style={{ fontSize: 25 + 'px' }} onClick={(e) => copy(e)}></i>
