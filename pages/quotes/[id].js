@@ -71,11 +71,7 @@ const Images = ({ quotes }) => {
             return <h1></h1>
         } else {
             return <h1>{categories}</h1>
-            return <ul>
-                {categories.map(function (cat, index) {
-                    return <li key={index}><Link href={"/quotes/" + cat.id}>{cat.name}</Link></li>
-                })}
-            </ul>
+        
         }
     }
     return (

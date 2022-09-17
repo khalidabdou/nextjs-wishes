@@ -1,6 +1,5 @@
 import React from "react";
 import axios from "axios";
-import Quote from "../comp/Quote";
 import Image from 'next/image'
 import SEO from '../comp/SEO'
 import { useEffect, useState } from "react";
@@ -61,11 +60,7 @@ const Images = ({ images }) => {
             return <h1></h1>
         } else {
             return <h1>{categories}</h1>
-            return <ul>
-                {categories.map(function (cat, index) {
-                    return <li key={index}><Link href={"/images/" + cat.id}>{cat.name}</Link></li>
-                })}
-            </ul>
+           
         }
     }
     return (
