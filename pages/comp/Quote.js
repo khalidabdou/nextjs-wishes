@@ -38,7 +38,7 @@ export default function Quote({ quote: quote }) {
 
                     <div>
                       <i className="col bi bi-whatsapp m-2" style={{ fontSize: 25 + 'px' }}>
-                        <a href="whatsapp://send" onclick="ga.send('btn1');" data-text="Take a look at this awesome website:" />
+                        <a href="whatsapp://send" onClick="ga.send('btn1');" data-text="Take a look at this awesome website:" />
                       </i>
                       <i
                         className="col bi bi-facebook m-2"
