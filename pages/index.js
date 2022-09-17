@@ -39,6 +39,7 @@ export default function Home() {
           backgound={"bg-white"}
           image={screen1}
           dir={""}
+          goTo={"images"}
         />
         <Section
           id={"stickers"}
@@ -47,6 +48,7 @@ export default function Home() {
           button={show}
           image={screen2}
           dir={"rtl"}
+          goTo={"stickers"}
         />
         <Section
           id={"quotes"}
@@ -56,6 +58,7 @@ export default function Home() {
           backgound={"bg-white"}
           image={screen3}
           dir={""}
+          goTo={"quotes"}
         />
         <Section
           id={"wallpapers"}
@@ -64,6 +67,7 @@ export default function Home() {
           button={show}
           image={screen4}
           dir={"rtl"}
+          goTo={"wallpapers"}
         />
         <Reviews />
       </main>

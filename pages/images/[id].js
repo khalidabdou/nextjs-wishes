@@ -7,30 +7,27 @@ import { useEffect, useState } from "react";
 
 let limit = 20
 export const getStaticProps = async (ctx) => {
-    // ctx will contain request parameters
+
     const { params } = ctx;
-    // We will destructure id from the parameters
     const id = params.id;
-    const quotes = await axios.get(process.env.DASHBOARD_API + "api/v2/quotes_v2/" + id);
-    //console.log(quotes);
+    const images = await axios.get(process.env.DASHBOARD_API + "api/v2/images/" + id);
     return {
         props: {
-            quotes: quotes.data,
+            images: images.data,
         },
     };
 };
 
 export const getStaticPaths = async ({ locales }) => {
 
-    const cats = await axios.get(process.env.DASHBOARD_API + "api/v2/cats_quote/all");
-
+    const cats = await axios.get(process.env.DASHBOARD_API + "api/v2/cats_image/all");
     let paths = [];
 
     cats.data.cats.map((cat) => {
         for (const locale of locales) {
             paths.push({
                 params: {
-                    id: cat.id.toString(),
+                    id: cat.cid.toString(),
                 },
                 locale,
             });
@@ -43,26 +40,19 @@ export const getStaticPaths = async ({ locales }) => {
     };
 };
 
-const Images = ({ quotes }) => {
+const Images = ({ images }) => {
 
     const [categories, setCat] = useState(null)
-    const [quotesLimit, setQuotes] = useState(quotes.quotes.slice(0, 10));
+    const [imagesLimit, setimages] = useState(images.images.slice(0, 4));
 
 
-    useEffect(() => {
 
-        axios.get(process.env.DASHBOARD_API + "api/v2/cats_quote/zh").then(res => {
-            console.log(res);
-            setCat("aaa")
-        });
-
-    }, [])
 
 
 
     function loadMore() {
         limit = limit + 20
-        setQuotes(quotes.quotes.slice(0, limit))
+        setimages(images.images.slice(0, limit))
     }
 
     function Comp() {
@@ -73,7 +63,7 @@ const Images = ({ quotes }) => {
             return <h1>{categories}</h1>
             return <ul>
                 {categories.map(function (cat, index) {
-                    return <li key={index}><Link href={"/quotes/" + cat.id}>{cat.name}</Link></li>
+                    return <li key={index}><Link href={"/images/" + cat.id}>{cat.name}</Link></li>
                 })}
             </ul>
         }
@@ -81,34 +71,34 @@ const Images = ({ quotes }) => {
     return (
         <>
             <SEO
-                seoTitle={quotes.category.seoTitle ? quotes.category.seoTitle : quotes.category.name}
-                seoKeyword={quotes.category.seoKeywords}
-                seodesc={quotes.category.seoDesc ? quotes.category.seoDesc : quotes.category.name}
+                seoTitle={images.category.seoTitle ? images.category.seoTitle : images.category.category_name}
+                seoKeyword={images.category.seoKeywords}
+                seodesc={images.category.seoDesc ? images.category.seoDesc : images.category.category_name}
             />
             <div className="masthead container px-5 bg-white">
                 <div className="container">
-                    <h1>{quotes.category.seoTitle ? quotes.category.seoTitle : quotes.category.name}</h1>
-                    <Image
-                        src={process.env.DASHBOARD_API + "category/" + quotes.category.image}
-                        alt="Picture of the author"
-                        width={500}
-                        height={500}
-                    />
+                    <h1>{images.category.seoTitle ? images.category.seoTitle : images.category.category_name}</h1>
+
                     <div className="row">
                         <div className="col">
                             <div className="row ">
-                                {quotesLimit.map(function (q, index) {
-                                    return <div key={index} className="">
-                                        <Quote quote={q.quote} />
+                                {imagesLimit.map(function (q, index) {
+                                    return <div
+                                        key={index} className="col">
+                                        <Image
+
+                                            key={q.id}
+                                            src={process.env.DASHBOARD_API + "/categories/Chinese/" + q.image_upload}
+                                            width={300}
+                                            height={400}
+                                        />
                                     </div>
                                 })}
                             </div>
                         </div>
 
                         <div className="col-sm-3 center-image hidden-xs">
-
                             {Comp()}
-
                         </div>
 
                     </div>

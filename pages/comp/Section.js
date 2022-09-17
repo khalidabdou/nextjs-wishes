@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Router from "next/router";
+import Link from "next/link";
 
 export default function Section({
   id,
@@ -8,7 +10,10 @@ export default function Section({
   backgound,
   image,
   dir,
+  goTo,
 }) {
+
+
   return (
     <section className={"masthead " + backgound} dir={dir || "ltr"} id={id}>
       <div className="container px-5">
@@ -68,7 +73,7 @@ export default function Section({
                   data-color="black"
                 >
                   <div className="screen bg-black">
-                    <Image src={"https://play-lh.googleusercontent.com/"+image} alt="logo" layout="fill" />
+                    <Image src={"https://play-lh.googleusercontent.com/" + image} alt="logo" layout="fill" />
                   </div>
                 </div>
               </div>
@@ -81,7 +86,10 @@ export default function Section({
               <p className="lead fw-normal text-muted mb-5">{description}</p>
               <div className="d-flex flex-column flex-lg-row align-items-center">
                 <a className="me-lg-3 mb-4 mb-lg-0" href="#">
-                  <button className="btn btn-primary">{button}</button>
+                  <Link href={goTo}>
+                    <button className="btn btn-primary">{button}</button>
+                  </Link>
+                  
                 </a>
               </div>
             </div>

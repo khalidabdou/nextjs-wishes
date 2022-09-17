@@ -6,20 +6,13 @@ import { useRouter } from "next/router";
 
 
 export default function Navbar() {
-  let menutList=[]
+  let menutList = []
   const router = useRouter();
   const { t, lang } = useTranslation("common");
-  menutList  = t("common:menu", { }, { returnObjects: true })  || [];
+  menutList = t("common:menu", {}, { returnObjects: true }) || [];
   //if route is not return null
-  if(router.pathname !== '/'){
-    menutList=[]
-    menutList.push(<li key={1}><Link href="/"><a>{t("home")}</a></Link></li>)
-    menutList.push(<li key={2}><Link href="/"><a>{t("about")}</a></Link></li>)
-    
-  }
-  
- 
-  
+
+
   const onSelectChange = (e) => {
     const locale = e.target.value;
     router.push(router.asPath, router.asPath, {
@@ -35,10 +28,10 @@ export default function Navbar() {
     } else {
       navbarResponsive.classList.add("show");
     }
-   
+
   };
 
- 
+
 
   return (
     <nav
@@ -65,7 +58,7 @@ export default function Navbar() {
         </button>
         <div className="navbar-collapse collapse " id="navbarResponsive">
           <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
-            
+
             {menutList.map((item, index) => (
               <li className="nav-item" key={index}>
                 <a className="nav-link me-lg-3" href={item.link}>

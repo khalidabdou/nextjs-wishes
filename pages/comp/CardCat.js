@@ -2,18 +2,13 @@
 import Image from "next/image"
 import Router from 'next/router'
 
-export default function Crad({ category }) {
-
-
-
-
+export default function Crad({ categoryImage,categoryName ,goTo ,API}) {
     return (
-        <>
-
-            <div className="card" style={{ width: "18rem" }} onClick={() => Router.push('/quotes/' + category.id)}>
+        <a href={goTo}>
+            <div className="card" style={{ width: "18rem" }}>
                 <div className="card-img-top">
                     <Image
-                        src={'http://specialones.online/category/' + category.image}
+                        src={API+'category/' + categoryImage}
                         alt="Card image cap"
                         width={300}
                         height={250}
@@ -21,9 +16,9 @@ export default function Crad({ category }) {
                 </div>
             </div>
             <div className="card-body">
-                <h5 className="card-title">{category.name}</h5>
+                <h5 className="card-title">{categoryName}</h5>
             </div>
-        </>
+        </a>
 
     )
 

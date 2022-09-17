@@ -10,12 +10,8 @@ import CardCat from "../comp/CardCat";
 
 export const getStaticProps = async (ctx) => {
 
-
-    console.log(ctx.locale);
     const { locale } = ctx;
-
-
-    const cats = await axios.get(process.env.DASHBOARD_API + "api/v2/cats_quote/" + locale);
+    const cats = await axios.get(process.env.DASHBOARD_API + "api/v2/cats_image/" + locale);
     //let quotes=res.data.quotes
 
     return {
@@ -28,17 +24,19 @@ export default function Index(props) {
     return (
         <>
             <SEO />
-            <div className="masthead container px-5 bg-white" >
+            <div className="masthead container px-5 bg-white">
                 <div className="container">
+
+
                     <div className="row">
                         <div className="col">
                             <div className="row ">
                                 {categories.map(function (q, index) {
                                     return <div key={index} className="col">
                                         <CardCat
-                                            categoryName={q.name}
-                                            categoryImage={q.image}
-                                            goTo={'/quotes/' + q.id}
+                                            categoryName={q.category_name}
+                                            categoryImage={q.category_image}
+                                            goTo={'/images/' + q.cid}
                                             API={process.env.DASHBOARD_API}
                                         />
                                     </div>
@@ -48,11 +46,10 @@ export default function Index(props) {
                         <div className="col-sm-3 center-image hidden-xs">
                             <ul>
                                 {categories.map(function (cat, index) {
-                                    return <li key={index}><Link href={"/quotes/" + cat.id}>{cat.name}</Link></li>
+                                    return <li key={index}><Link href={"/images/" + cat.cid}>{cat.category_name}</Link></li>
                                 })}
                             </ul>
                         </div>
-
                     </div>
                 </div>
             </div>

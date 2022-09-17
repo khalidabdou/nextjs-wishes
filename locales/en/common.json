@@ -27,23 +27,23 @@
     "menu": [
       {
         "name": "Images",
-        "link": "#images"
+        "link": "/#images"
       },
       {
         "name": "Quotes",
-        "link": "#quotes"
+        "link": "/#quotes"
       },
       {
         "name": "Stickers",
-        "link": "#stickers"
+        "link": "/#stickers"
       },
       {
         "name": "Wallpapers",
-        "link": "#wallpapers"
+        "link": "/#wallpapers"
       },
       {
         "name": "Download",
-        "link": "#download"
+        "link": "/#download"
       },
       {
         "name": "about",

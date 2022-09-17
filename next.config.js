@@ -5,9 +5,11 @@ const nextConfig = {
   ...nextTranslate(),
   reactStrictMode: true,
   swcMinify: true,
+  env: {
+    DASHBOARD_API: process.env.DASHBOARD_API,
+  },
   images: {
-    domains: ['specialones.online','play-lh.googleusercontent.com'],
-    
+    domains: ['specialones.online','play-lh.googleusercontent.com',''],
   },
 
 }
